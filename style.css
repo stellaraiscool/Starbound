@@ -41,13 +41,9 @@ nav a:hover {
 .about-text {
     max-width: 800px;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .about p:last-child {
     margin-top: 25px;
-}
-
-.about p {
-    margin-bottom: 20px;
 }
