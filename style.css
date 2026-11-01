@@ -88,3 +88,7 @@ nav a:hover {
 .character-description h3 {
     font-size: 12px;
 }
+
+.character-description p {
+    text-align: left;
+}
