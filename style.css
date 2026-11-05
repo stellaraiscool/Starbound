@@ -24,18 +24,34 @@ h1 img {
 
 nav {
     text-align: center;
-    margin: 30px auto;
+    margin: 10px auto 30px;
 }
 
 nav a {
+    display: inline-block;
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    padding: 8px 12px;
+    margin: 0 8px;
+    padding: 12px 18px;
+
+    background-color: #17172b;
+    border: 2px solid #7777aa;
+
+    transition: 
+        background-color 0.15s ease,
+        border-color 0.15s ease,
+        transform 0.1s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #303052;
+    border-color: #ccccff;
+    transform: translateY(-2px);
+}
+
+nav a:active {
+    transform: translateY(2px) scale(0.97);
+    background-color: #09091a;
 }
 
 .about-text {
